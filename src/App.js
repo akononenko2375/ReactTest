@@ -2,12 +2,12 @@ import React from 'react';
 import './App.scss';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
-import Menu from './Menu/Menu';
 import Home from './Home/Home';
 import About from './About/About';
 import Cars from './Cars/Cars';
 import CarDetail from './CarDetail/CarDetail';
 import Error from './Error/Error';
+import Menu from './Menu/Menu';
 
 function App() {
   return <Router>
